@@ -1,0 +1,28 @@
+{
+   "list": [
+      {
+         "name":"AutoPkgr",
+         "url":"https://github.com/lindegroup/autopkgr",
+         "desc":"AutoPkgr is a free Mac app that makes it easy to install and configure AutoPkg."
+      },
+      {
+         "name":"TMNotifier",
+         "url":"https://tmnotifier.com/",
+         "desc":"Easy email notifications for Time Machine"
+      },
+      {
+         "name":"TrumpBlockr",
+         "desc":"TrumpBlockr was a content blocker that would hide or block anything related to Donald Trump from Safari on iOS. It's no longer available."
+      },
+      {
+         "name":"PyWebAuthn",
+         "url":"https://github.com/duo-labs/py_webauthn",
+         "desc":"A WebAuthn Python module."
+      },
+      {
+         "name":"EFIgy-GUI",
+         "url":"https://github.com/duo-labs/EFIgy-GUI",
+         "desc":"A Mac app that uses the Duo Labs EFIgy API to inform you about the state of your EFI firmware."
+      }
+   ]
+}

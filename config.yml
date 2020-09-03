@@ -1,0 +1,106 @@
+baseURL: https://everythingisgray.com/
+copyright: James Barclay
+defaultContentLanguage: en
+disqusShortname: everythingisgray
+enableGitInfo: true
+footnoteReturnLinkContents: ↩
+# googleAnalytics: UA-123456789-1
+languageCode: en-us
+# summaryLength: 2
+theme: cactus
+title: Everything is Gray
+
+author:
+  name: James Barclay
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:year/:month/:day/:title/
+
+params:
+  colortheme: "white" # dark, light, white, or classic
+  rss: true # generate rss feed. default value is false
+  googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
+  logo: /images/logo.png
+
+  # Home page settings
+  description: A place to put stuff.
+  mainSection: posts # your main section.
+  showAllPostsOnHomePage: true # default = false
+  postsOnHomePage: 10 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview: false # show tags overview by default.
+  showProjectsList: true # show projects list by default (if projects data file exists).
+  projectsUrl: https://github.com/futureimperfect # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat: 2006-01-02 # default = "2006-01-02"
+
+  # Post page settings
+  show_updated: true # default = false
+
+  comments:
+    - enabled: true # default = false
+      engine: disqus
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  social:
+    - name: twitter
+      link: https://twitter.com/futureimperfect
+    - name: github
+      link: https://github.com/futureimperfect
+    - name: keybase
+      link: https://keybase.io/futureimperfect
+    - name: linkedin
+      link: https://www.linkedin.com/in/barclayjames
+    - name: goodreads
+      link: https://goodreads.com/futureimperfect
+    - name: foursquare
+      link: https://foursquare.com/futureimperfect
+    - name: pinterest
+      link: https://www.pinterest.com/futureimperfect/boards/
+    - name: reddit
+      link: https://old.reddit.com/user/imperfectfuture/
+    - name: stack-exchange
+      link: https://stackexchange.com/users/6357969/james-barclay
+    - name: steam
+      link: https://steamcommunity.com/id/everythingisgray/
+    - name: strava
+      link: https://www.strava.com/athletes/futureimperfect
+    # - name: twitch
+    #   link: https://www.twitch.tv/futureimperfect
+    # - name: youtube
+    #   link: https://www.youtube.com/channel/UCdofWV4dDlqiDFWJIfqpjkg?view_as=subscriber
+    # - name: instagram
+    #   link: https://www.instagram.com/futureimperfect/
+    # - name: email
+    #   link: user@example.com # no need for "mailto:" in the head
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
+    - name: Talks
+      url: /talks/
+      weight: 4
+    - name: Portfolio
+      url: /portfolio/
+      weight: 5
+    - name: RSS
+      url: /index.xml
+      weight: 6
+
+markup:
+  tableOfContents:
+      endLevel: 4
+      ordered: false
+      startLevel: 2
