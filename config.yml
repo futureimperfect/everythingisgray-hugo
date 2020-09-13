@@ -47,32 +47,34 @@ params:
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
   social:
-    - name: twitter
-      link: https://twitter.com/futureimperfect
+    - name: flickr
+      link: https://www.flickr.com/people/everythingisgray/
+    - name: foursquare
+      link: https://foursquare.com/futureimperfect
     - name: github
       link: https://github.com/futureimperfect
+    - name: goodreads
+      link: https://goodreads.com/futureimperfect
     - name: keybase
       link: https://keybase.io/futureimperfect
     - name: linkedin
       link: https://www.linkedin.com/in/barclayjames
-    - name: goodreads
-      link: https://goodreads.com/futureimperfect
-    - name: foursquare
-      link: https://foursquare.com/futureimperfect
     - name: pinterest
       link: https://www.pinterest.com/futureimperfect/boards/
     - name: reddit
       link: https://old.reddit.com/user/imperfectfuture/
+    - name: rss
+      link: /index.xml
     - name: stack-exchange
       link: https://stackexchange.com/users/6357969/james-barclay
     - name: steam
       link: https://steamcommunity.com/id/everythingisgray/
     - name: strava
       link: https://www.strava.com/athletes/futureimperfect
-    - name: flickr
-      link: https://www.flickr.com/people/everythingisgray/
     - name: tumblr
       link: https://www.tumblr.com/blog/james-barclay
+    - name: twitter
+      link: https://twitter.com/futureimperfect
     # - name: twitch
     #   link: https://www.twitch.tv/futureimperfect
     # - name: youtube
@@ -99,9 +101,6 @@ menu:
     - name: Portfolio
       url: /portfolio/
       weight: 5
-    - name: RSS
-      url: /index.xml
-      weight: 6
 
 markup:
   tableOfContents:
