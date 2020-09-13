@@ -1,7 +1,7 @@
 +++
 date = "2009-04-30"
 slug = "2009/04/30/jobtac-uses-simplixity-theme-for-their-wp-blog"
-title = "Jobtac Uses Simplixity Theme for Their Wp Blog"
+title = "Jobtac Uses \"Simplixity\" Theme for Their WP Blog"
 Categories = ["Theme Development", "WordPress"]
 Tags = ["Web Design", "Web Development", "WordPress"]
 +++

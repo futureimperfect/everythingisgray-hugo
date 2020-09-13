@@ -1,5 +1,5 @@
 +++
-title = "On Migrating From Wordpress to Octopress"
+title = "On Migrating From WordPress to Octopress"
 date = "2013-06-15"
 slug = "2013/06/15/on-migrating-from-wordpress-to-octopress"
 Categories = ["Web Development", "Octopress", "WordPress"]

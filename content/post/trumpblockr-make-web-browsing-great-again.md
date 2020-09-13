@@ -1,5 +1,5 @@
 +++
-title = "Trumpblockr Make Web Browsing Great Again"
+title = "TrumpBlockr"
 date = "2015-10-26"
 slug = "2015/10/26/trumpblockr-make-web-browsing-great-again"
 published = false

@@ -1,7 +1,7 @@
 +++
 date = "2009-06-16"
 slug = "2009/06/16/nextgen-cool-wordpress-gallery-plugin"
-title = "Nextgen Cool Wordpress Gallery Plugin"
+title = "NextGEN: Cool WordPress Plugin"
 Categories = ["Plugins", "WordPress"]
 +++
 

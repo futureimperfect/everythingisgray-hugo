@@ -1,7 +1,7 @@
 +++
 date = "2009-04-17"
 slug = "2009/04/17/loopthing-uses-simplixity-theme-for-their-blog"
-title = "Loopthing Uses Simplixity Theme for Their Blog"
+title = "Loopthing Uses \"Simplixity\" Theme for Their Blog"
 Categories = ["Theme Development", "WordPress"]
 +++
 

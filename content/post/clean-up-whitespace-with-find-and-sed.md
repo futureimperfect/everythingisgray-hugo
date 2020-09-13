@@ -1,5 +1,5 @@
 +++
-title = "Clean Up Whitespace With Find and Sed"
+title = "Clean Up Whitespace With find and sed"
 date = "2014-10-07"
 slug = "2014/10/07/clean-up-whitespace-with-find-and-sed"
 published = false

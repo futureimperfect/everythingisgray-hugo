@@ -1,7 +1,7 @@
 +++
 date = "2009-05-02"
 slug = "2009/05/02/do-hosted-solutions-threaten-wordpress-and-other-blogging-platforms"
-title = "Do Hosted Solutions Threaten Wordpress and Other Blogging Platforms"
+title = "Do Hosted Solutions Threaten WordPress and Other Blogging Platforms?"
 Categories = ["Theme Development", "WordPress"]
 Tags = ["Theme Development", "WordPress"]
 +++

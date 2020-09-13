@@ -1,7 +1,7 @@
 +++
 date = "2010-02-16"
 slug = "2010/02/16/configure-archive-utility-in-mac-os-x"
-title = "Configure Archive Utility in Mac Os X"
+title = "Configure Archive Utility in Mac OS X"
 Categories = ["OS X", "Technology"]
 Tags = ["OS X"]
 +++

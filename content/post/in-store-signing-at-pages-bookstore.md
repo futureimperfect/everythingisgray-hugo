@@ -1,7 +1,7 @@
 +++
 date = "2010-04-16"
 slug = "2010/04/16/in-store-signing-at-pages-bookstore"
-title = "In Store Signing at Pages Bookstore"
+title = "In-store Signing at Pages Bookstore"
 Categories = ["Art"]
 Tags = ["Comics"]
 +++

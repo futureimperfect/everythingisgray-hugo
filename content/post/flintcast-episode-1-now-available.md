@@ -1,7 +1,7 @@
 +++
 date = "2009-06-04"
 slug = "2009/06/04/flintcast-episode-1-now-available"
-title = "Flintcast Episode 1 Now Available"
+title = "FlintCast Episode 1 Now Available"
 Categories = ["Podcasting"]
 Tags = ["Podcasting"]
 +++

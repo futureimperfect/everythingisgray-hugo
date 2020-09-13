@@ -1,7 +1,7 @@
 +++
 date = "2009-04-08"
 slug = "2009/04/08/modifications-of-simplixity-wordpress-theme"
-title = "Modifications of Simplixity Wordpress Theme"
+title = "Modification of \"Simplixity\" WordPress Theme"
 Categories = ["Theme Development", "WordPress"]
 +++
 

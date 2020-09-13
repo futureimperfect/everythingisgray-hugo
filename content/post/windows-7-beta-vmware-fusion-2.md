@@ -1,7 +1,7 @@
 +++
 date = "2009-02-08"
 slug = "2009/02/08/windows-7-beta-vmware-fusion-2"
-title = "Windows 7 Beta Vmware Fusion 2"
+title = "Windows 7 Beta + VMware Fusion 2"
 Categories = ["Technology"]
 Tags = ["Microsoft", "Technology", "VMware", "Windows", "Windows 7"]
 +++

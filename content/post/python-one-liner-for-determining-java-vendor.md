@@ -1,5 +1,5 @@
 +++
-title = "Python One Liner for Determining Java Vendor"
+title = "Python One-liner for Determining Java Vendor"
 date = "2014-03-09"
 slug = "2014/03/09/python-one-liner-for-determining-java-vendor"
 published = false

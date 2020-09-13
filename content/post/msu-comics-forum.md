@@ -1,7 +1,7 @@
 +++
 date = "2010-03-20"
 slug = "2010/03/20/msu-comics-forum"
-title = "Msu Comics Forum"
+title = "MSU Comics Forum"
 Categories = ["Art"]
 Tags = ["Art", "Comics"]
 +++

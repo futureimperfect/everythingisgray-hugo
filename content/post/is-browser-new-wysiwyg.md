@@ -1,7 +1,7 @@
 +++
 date = "2009-04-19"
 slug = "2009/04/19/is-browser-new-wysiwyg"
-title = "Is Browser New Wysiwyg"
+title = "Is the Browser the New WYSIWYG?"
 Categories = ["Web Design", "Web Development"]
 Tags = ["Web Design", "Web Development"]
 +++

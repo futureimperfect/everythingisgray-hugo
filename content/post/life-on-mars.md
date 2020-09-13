@@ -1,7 +1,7 @@
 +++
 date = "2009-09-04"
 slug = "2009/09/04/life-on-mars"
-title = "Life on Mars"
+title = "Life on Mars?"
 Categories = ["Science"]
 Tags = ["Science"]
 +++

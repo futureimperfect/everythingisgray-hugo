@@ -1,7 +1,7 @@
 +++
 date = "2009-07-02"
 slug = "2009/07/02/xhtml-is-dead-but-dont-worry"
-title = "Xhtml Is Dead but Dont Worry"
+title = "XHTML Is Dead, (but Don't Worry)"
 Categories = ["W3C", "Web Development"]
 Tags = ["HTML 5", "W3C", "Web Development", "Web Standards", "XHTML"]
 +++

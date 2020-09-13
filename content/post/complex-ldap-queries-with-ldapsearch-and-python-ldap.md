@@ -1,5 +1,5 @@
 +++
-title = "Complex Ldap Queries With Ldapsearch and Python Ldap"
+title = "Complex LDAP Queries With ldapsearch and python-ldap"
 date = "2014-06-01"
 slug = "2014/06/01/complex-ldap-queries-with-ldapsearch-and-python-ldap"
 published = false

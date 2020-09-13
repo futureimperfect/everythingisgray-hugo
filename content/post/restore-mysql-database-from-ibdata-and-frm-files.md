@@ -1,7 +1,7 @@
 +++
 date = "2010-07-21"
 slug = "2010/07/21/restore-mysql-database-from-ibdata-and-frm-files"
-title = "Restore Mysql Database From Ibdata and Frm Files"
+title = "Restore MySQL Database From ibdata and .frm Files"
 Categories = ["Technology", "Web Development"]
 Tags = ["MySQL", "Web Development"]
 +++

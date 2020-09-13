@@ -1,7 +1,7 @@
 +++
 date = "2009-04-17"
 slug = "2009/04/17/how-to-installing-freebsd-as-a-guest-os-in-parallels-4"
-title = "How to Installing Freebsd as a Guest Os in Parallels 4"
+title = "How To: Installing FreeBSD as a Guest OS in Parallels 4"
 +++
 
 I'm by no means a UNIX expert, but I've managed to get the latest stable version of FreeBSD, (7.1), up and running as a guest OS using Parallels Desktop 4. In this tutorial, I will explain exactly what was done to achieve this.

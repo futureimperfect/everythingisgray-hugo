@@ -1,7 +1,7 @@
 +++
 date = "2009-07-01"
 slug = "2009/07/01/flintcast-episode-2-now-on-itunes"
-title = "Flintcast Episode 2 Now on Itunes"
+title = "FlintCast Episode 2 Now on iTunes"
 Categories = ["Podcasting"]
 Tags = ["Podcasting"]
 +++

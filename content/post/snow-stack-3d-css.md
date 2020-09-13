@@ -1,7 +1,7 @@
 +++
 date = "2009-07-23"
 slug = "2009/07/23/snow-stack-3d-css"
-title = "Snow Stack 3d Css"
+title = "Snow Stack 3D CSS"
 Categories = ["OS X", "Technology", "Web Development"]
 Tags = ["CSS", "Web Development"]
 +++

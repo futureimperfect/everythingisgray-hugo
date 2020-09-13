@@ -1,5 +1,5 @@
 +++
-title = "Curl Speed Test"
+title = "cURL Speed Test"
 date = "2013-06-16"
 slug = "2013/06/16/curl-speed-test"
 Categories = ["Unix"]

@@ -1,7 +1,7 @@
 +++
 date = "2008-10-31"
 slug = "2008/10/31/hello-world"
-title = "Hello World"
+title = "/* Hello World */"
 Categories = ["Theme Development"]
 Tags = ["php", "Theme Development"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2010-08-19"
 slug = "2010/08/19/how-i-use-automator-to-post-images-to-tumblr"
-title = "How I Use Automator to Post Images to Tumblr"
+title = "Automatically Post Images to Tumblr with Automator"
 Categories = ["Art", "OS X", "Technology"]
 Tags = ["Art", "OS X", "Technology"]
 +++

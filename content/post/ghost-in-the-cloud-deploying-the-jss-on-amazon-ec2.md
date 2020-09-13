@@ -1,5 +1,5 @@
 +++
-title = "Ghost in the Cloud Deploying the Jss on Amazon Ec2"
+title = "Ghost in the Cloud: Deploying the JSS on Amazon EC2"
 date = "2013-11-17"
 slug = "2013/11/17/ghost-in-the-cloud-deploying-the-jss-on-amazon-ec2"
 published = false

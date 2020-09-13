@@ -1,7 +1,7 @@
 +++
 date = "2009-08-01"
 slug = "2009/08/01/ideals-iphone-ap"
-title = "Ideals Iphone Ap"
+title = "iDeals iPhone App"
 Categories = ["iPhone"]
 Tags = ["iPhone"]
 +++
