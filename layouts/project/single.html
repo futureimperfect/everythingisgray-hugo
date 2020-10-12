@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ $showProjectsList := false }}
+  {{ $projectsUrl := "#" }}
+  {{ if .Site.Data.projects }}
+    {{ $showProjectsList = true }}
+  {{ else if (isset .Site.Params "showProjectsList") }}
+    {{ $showProjectsList = .Site.Params.ShowProjectsList }}
+  {{ end }}
+  {{ if $showProjectsList }}
+    {{ if isset .Site.Params "projectsUrl" }}
+      {{ $projectsUrl = .Site.Params.projectsUrl }}
+    {{ end }}
+  {{ end }}
+  <section id="projects">
+    <span class="h1"><a href="{{ $projectsUrl }}">Projects</a></span>
+    <ul class="project-list">
+        {{ range .Site.Data.projects.list }}
+        <li class="project-item">
+          <a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+        </li>
+        {{ end }}
+    </ul>
+  </section>
+{{ end }}

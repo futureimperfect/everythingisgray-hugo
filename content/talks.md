@@ -1,8 +1,5 @@
 +++
 slug = "talks"
 title = "Talks"
+type = "talks"
 +++
-
-* Foo
-* Bar
-* Baz

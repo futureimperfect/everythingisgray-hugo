@@ -1,0 +1,37 @@
+{
+   "list": [
+      {
+         "date":"April 2019",
+         "conference":"Cisco Offensive Summit",
+         "conference_url":null,
+         "location":"Knoxville, TN",
+         "title":"MDM Me Maybe: Device Enrollment Program Security",
+         "url":null,
+         "slides_url":null,
+         "pdf_url":null,
+         "video_url":null
+      },
+      {
+         "date":"October 2018",
+         "conference":"Triangle InfoSeCon",
+         "conference_url":"https://www.triangleinfosecon.com/",
+         "location":"Raleigh, NC",
+         "title":"Get Rid of Passwords With This One Weird Trick",
+         "url":null,
+         "slides_url":null,
+         "pdf_url":null,
+         "video_url":null
+      },
+      {
+         "date":"September 2018",
+         "conference":"ekoparty",
+         "conference_url":"https://ekoparty.org/en_US/",
+         "location":"Buenos Aires, Argentina",
+         "title":"MDM Me Maybe: Device Enrollment Program Security",
+         "url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/tree/master/ekoparty%202018%20-%20MDM%20Me%20Maybe",
+         "pdf_url":null,
+         "video_url":"https://www.youtube.com/watch?v=rEP70eVNAd0"
+      }
+   ]
+}

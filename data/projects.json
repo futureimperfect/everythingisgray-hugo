@@ -16,14 +16,14 @@
          "desc":"A Duo Security API Client for Swift."
       },
       {
-         "name":"AutoPkgr",
-         "url":"https://github.com/lindegroup/autopkgr",
-         "desc":"A Mac app that makes it easy to install and configure AutoPkg."
-      },
-      {
          "name":"TMNotifier",
          "url":"https://tmnotifier.com/",
          "desc":"A Mac app that monitors Time Machine for errors."
+      },
+      {
+         "name":"AutoPkgr",
+         "url":"https://github.com/lindegroup/autopkgr",
+         "desc":"A Mac app that makes it easy to install and configure AutoPkg."
       },
       {
          "name":"TrumpBlockr",
@@ -31,14 +31,19 @@
          "desc":"A Content Blocker for iOS. It's no longer available."
       },
       {
-         "name":"Simplixity",
-         "url":"https://wordpress.org/themes/simplixity/",
-         "desc":"A WordPress theme I created ages ago. You shouldn't use it anymore."
+         "name":"kooBtrA",
+         "url":"https://koobtra.com/archive",
+         "desc":"A drawing a day for 365 days."
       },
       {
          "name":"FlintCast",
          "url":"http://bit.ly/oxFPy",
-         "desc":"A Podcast that I co-hosted long ago about my hometown of Flint, MI."
+         "desc":"A Podcast I co-hosted long ago about my hometown of Flint, MI."
+      },
+      {
+         "name":"Simplixity",
+         "url":"https://wordpress.org/themes/simplixity/",
+         "desc":"A WordPress theme I created ages ago. You shouldn't use it anymore."
       }
    ]
 }

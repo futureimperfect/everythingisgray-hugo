@@ -1,6 +1,7 @@
 +++
 slug = "about"
 title = "About James"
+type = "page"
 +++
 
 ![Me][me]

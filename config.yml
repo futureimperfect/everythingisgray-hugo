@@ -20,6 +20,7 @@ permalinks:
   post: /:year/:month/:day/:title/
 
 params:
+  custom_css: ["custom.css"]
   colortheme: "classic" # dark, light, white, or classic
   rss: true # generate rss feed. default value is false
   googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
@@ -32,7 +33,8 @@ params:
   postsOnHomePage: 10 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview: false # show tags overview by default.
   showProjectsList: true # show projects list by default (if projects data file exists).
-  projectsUrl: https://github.com/futureimperfect # title link for projects list
+  projectsUrl: /projects/
+  talksUrl: /talks/
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat: 2006-01-02 # default = "2006-01-02"

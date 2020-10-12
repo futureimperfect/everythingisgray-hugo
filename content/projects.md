@@ -1,32 +1,5 @@
 +++
 slug = "projects"
 title = "Projects"
+type = "project"
 +++
-
-# Open-source
-
-* Baz
-* Bar
-* Foo
-
-# Commercial
-
-* Baz
-* Bar
-* Foo
-
-# Books
-
-* Baz
-
-# Comics
-
-* Baz
-* Bar
-* Foo
-
-# Miscellaneous
-
-* Baz
-* Bar
-* Foo
