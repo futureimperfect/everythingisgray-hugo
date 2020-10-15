@@ -1,15 +1,28 @@
 {
    "list": [
       {
+         "date":"December 2019",
+         "conference":"Black Hat EU",
+         "conference_url":"https://www.blackhat.com/eu-19/",
+         "location":"London, UK",
+         "title":"Chain of Fools: An Exploration of Certificate Chain Validation Mishaps",
+         "url":"https://www.blackhat.com/eu-19/briefings/schedule/index.html#chain-of-fools-an-exploration-of-certificate-chain-validation-mishaps-17516",
+         "slides_url":"https://github.com/futureimperfect/slides/tree/master/ekoparty%202018%20-%20MDM%20Me%20Maybe",
+         "pdf_url":"https://duo.com/labs/research/chain-of-fools",
+         "video_url":"https://www.youtube.com/watch?v=gmYcsdXT3W8",
+         "code_repo":null
+      },
+      {
          "date":"April 2019",
          "conference":"Cisco Offensive Summit",
          "conference_url":null,
          "location":"Knoxville, TN",
          "title":"MDM Me Maybe: Device Enrollment Program Security",
          "url":null,
-         "slides_url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/tree/master/ekoparty%202018%20-%20MDM%20Me%20Maybe",
          "pdf_url":null,
-         "video_url":null
+         "video_url":null,
+         "code_repo":null
       },
       {
          "date":"October 2018",
@@ -18,9 +31,10 @@
          "location":"Raleigh, NC",
          "title":"Get Rid of Passwords With This One Weird Trick",
          "url":null,
-         "slides_url":null,
+         "slides_url":"https://www.triangleinfosecon.com/wp-content/uploads/2018/11/James-Barclay-Triangle-InfoSec-Presentation.pdf",
          "pdf_url":null,
-         "video_url":null
+         "video_url":null,
+         "code_repo":null
       },
       {
          "date":"September 2018",
@@ -30,8 +44,117 @@
          "title":"MDM Me Maybe: Device Enrollment Program Security",
          "url":null,
          "slides_url":"https://github.com/futureimperfect/slides/tree/master/ekoparty%202018%20-%20MDM%20Me%20Maybe",
+         "pdf_url":"https://duo.com/labs/research/mdm-me-maybe",
+         "video_url":"https://www.youtube.com/watch?v=rEP70eVNAd0",
+         "code_repo":null
+      },
+      {
+         "date":"March 2018",
+         "conference":"Source Mesa",
+         "conference_url":"https://sourceconference.com/events/mesa2018/",
+         "location":"Mesa, AZ",
+         "title":"Get Rid of Passwords With This One Weird Trick",
+         "url":"https://sourceconference.com/events/mesa20181/james-barclay/",
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/Triangle%20InfoSeCon%202018%20-%20Get%20Rid%20of%20Passwords%20With%20This%20One%20Weird%20Trick/Get-Rid-of-Passwords-With-This-One-Weird-Trick.pdf",
          "pdf_url":null,
-         "video_url":"https://www.youtube.com/watch?v=rEP70eVNAd0"
+         "video_url":"https://www.youtube.com/watch?v=rEP70eVNAd0",
+         "code_repo":null
+      },
+      {
+         "date":"October 2017",
+         "conference":"LASCON",
+         "conference_url":"https://lascon2017.sched.com/",
+         "location":"Austin, TX",
+         "title":"From Zero to Zero-Trust: Lessons Learned Building a BeyondCorp SSH Proxy",
+         "url":"https://lascon2017.sched.com/event/C1He/from-zero-to-zero-trust-lessons-learned-building-a-beyondcorp-ssh-proxy",
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/Triangle%20InfoSeCon%202018%20-%20Get%20Rid%20of%20Passwords%20With%20This%20One%20Weird%20Trick/Get-Rid-of-Passwords-With-This-One-Weird-Trick.pdf",
+         "pdf_url":null,
+         "video_url":"https://www.youtube.com/watch?v=aEgv4wmn0is",
+         "code_repo":null
+      },
+      {
+         "date":"September 2017",
+         "conference":"ToorCon",
+         "conference_url":"https://www.universe.com/events/toorcon-19-san-diego-2017-tickets-QN0MZT",
+         "location":"San Diego, CA",
+         "title":"From Zero to Zero-Trust: Lessons Learned Building a BeyondCorp SSH Proxy",
+         "url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/ToorCon%2019%20(2017)%20-%20From%20Zero%20to%20Zero-Trust/From%20Zero%20to%20Zero-Trust.pdf",
+         "pdf_url":null,
+         "video_url":"https://www.youtube.com/watch?v=FSbOgwLERaA",
+         "code_repo":null
+      },
+      {
+         "date":"February 2016",
+         "conference":"MacAD UK",
+         "conference_url":"https://www.macad.uk/",
+         "location":"London, UK",
+         "title":"Cocoa Development with Objective-C and Python",
+         "url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/MacADUK%202016%20-%20Cocoa%20Development%20with%20Objective-C%20and%20Python/Cocoa%20Development%20with%20Objective-C%20and%20Python.pdf",
+         "pdf_url":null,
+         "video_url":null,
+         "code_repo":null
+      },
+      {
+         "date":"September 2015",
+         "conference":"Macbrained at Square",
+         "conference_url":"http://macbrained.org/",
+         "location":"San Francisco, CA",
+         "title":"Working with System Frameworks in Python and Objective-C",
+         "url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/macbrained%20September%202015%20-%20Working%20with%20System%20Frameworks%20in%20Python%20and%20Objective-C/Working%20with%20System%20Frameworks%20in%20Python%20and%20Objective-C%20-%20MacBrained.pdf",
+         "pdf_url":null,
+         "video_url":null,
+         "code_repo":null
+      },
+      {
+         "date":"July 2015",
+         "conference":"PSU MacAdmins",
+         "conference_url":"https://macadmins.psu.edu/",
+         "location":"State College, PA",
+         "title":"Working with System Frameworks in Python and Objective-C",
+         "url":"https://macadmins.psu.edu/2015/04/19/psumac2015-62/",
+         "slides_url":"http://macadmins.psu.edu/wp-content/uploads/sites/24696/2015/07/psumac2015-62-Working_with_System_Frameworks_in_Python_and_Objective-C.pdf",
+         "pdf_url":null,
+         "video_url":"https://www.youtube.com/watch?v=6CY-DCfhAzw",
+         "code_repo":null
+      },
+      {
+         "date":"August 2014",
+         "conference":"Macbrained at Zendesk",
+         "conference_url":"http://macbrained.org/",
+         "location":"San Francisco, CA",
+         "title":"Creating GUIs for Command-Line Utilities With Objective-C/Cocoa",
+         "url":null,
+         "slides_url":null,
+         "pdf_url":null,
+         "video_url":"https://youtu.be/u2gd6GBdJmw?t=788",
+         "code_repo":null
+      },
+      {
+         "date":"January 2014",
+         "conference":"Macbrained at The Linde Group",
+         "conference_url":"http://macbrained.org/",
+         "location":"Berkeley, CA",
+         "title":"Command-Line Productivity for Mac Admins",
+         "url":null,
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/macbrained%20January%202014%20-%20CLI%20Productivity%20for%20Mac%20Admins/cli_productivity_for_mac_admins.pdf",
+         "pdf_url":null,
+         "video_url":null,
+         "code_repo":null
+      },
+      {
+         "date":"October 2013",
+         "conference":"JAMF Nation User Conference",
+         "conference_url":"https://www.jamf.com/events/jamf-nation-user-conference/",
+         "location":"Minneapolis, MN",
+         "title":"Ghost in the Cloud: Deploying the JSS on Amazon EC2",
+         "url":"https://www.jamf.com/events/jamf-nation-user-conference/2013/sessions/",
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/JAMF%20Software%20NUC%202013%20-%20Ghost%20in%20the%20Cloud/JAMF%20Software%20NUC%202013%20Keynote%20-%20Ghost%20in%20the%20Cloud.pdf",
+         "pdf_url":null,
+         "video_url":"https://www.youtube.com/watch?v=OGk28LVSRiE",
+         "code_repo":null
       }
    ]
 }
