@@ -1,5 +1,5 @@
 +++
 slug = "projects"
 title = "Projects"
-type = "project"
+type = "project_list"
 +++

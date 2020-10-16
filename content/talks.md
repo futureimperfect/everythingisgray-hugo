@@ -1,5 +1,5 @@
 +++
 slug = "talks"
 title = "Talks"
-type = "talks"
+type = "talk_list"
 +++

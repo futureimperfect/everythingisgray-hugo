@@ -5,11 +5,13 @@
   {{ end }}
   <section id="talks">
     <span class="h1"><a href="{{ $talksUrl }}">Talks</a></span>
-    <ul class="talks-list">
+    <hr></hr>
+    <ul class="project-list">
         {{ range .Site.Data.talks.list }}
-        <li class="talk-item">
+        <li class="project-item">
             {{ .date | markdownify }} - <strong><a href="{{ .conference_url | default "#" }}">{{ .conference | markdownify }}</a></strong> - {{ .location | markdownify }} - <a href="{{ .url | default "#" }}">{{ .title | markdownify }}</a> (<a href="{{ .slides_url | default "#" }}">Slides</a>, <a href="{{ .video_url | default "#" }}">Video</a>, <a href="{{ .pdf_url | default "#" }}">PDF</a>)
         </li>
+        <hr></hr>
         {{ end }}
     </ul>
   </section>
