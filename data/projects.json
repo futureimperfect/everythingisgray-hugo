@@ -36,6 +36,21 @@
          "desc":"A drawing a day for 365 days."
       },
       {
+         "name":"A Conversation in Progress",
+         "url":"http://magic.lib.msu.edu/search~S23?/aBarclay,+James./abarclay+james/1,4,7,B/frameset&FF=abarclay+james&1,,3",
+         "desc":"My third comic."
+      },
+      {
+         "name":"Here for Now",
+         "url":"http://magic.lib.msu.edu/search~S23?/aBarclay,+James./abarclay+james/1,4,7,B/frameset&FF=abarclay+james&2,,3",
+         "desc":"My second comic."
+      },
+      {
+         "name":"Stars Beneath Stars",
+         "url":"http://magic.lib.msu.edu/search~S23?/aBarclay,+James./abarclay+james/1,4,7,B/frameset&FF=abarclay+james&3,,3",
+         "desc":"My first comic."
+      },
+      {
          "name":"FlintCast",
          "url":"http://bit.ly/oxFPy",
          "desc":"A Podcast I co-hosted long ago about my hometown of Flint, MI."
