@@ -41,7 +41,7 @@ func main() {
 
 Make sure that the `import C` line goes directly below the C code, otherwise it will fail with something like the following:
 
-```
+```sh
 ./get_mac_serial_number.go:26:29: could not determine kind of name for C.getSerialNumber
 ```
 

@@ -8,7 +8,7 @@ Categories = ["OS X", "Technology", "Python"]
 
 Here's a Python one-liner that prints the Java vendor on OS X clients, (e.g., Apple or Oracle).
 
-``` bash
+```sh
 python -c 'import os,plistlib; jv = plistlib.readPlist(os.path.join(os.path.realpath("/Library/Internet Plug-Ins/JavaAppletPlugin.plugin"), "Contents/Info.plist"))["CFBundleIdentifier"].split(".")[1]; print jv.capitalize()'
 ```
 

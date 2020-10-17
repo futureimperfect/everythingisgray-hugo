@@ -11,7 +11,7 @@ The fine folks at [JAMF Software][1] have posted a [video][2] of the talk I gave
 
 The slides for this talk are available on my [GitHub][4] if you want to follow along.
 
-{% youtube OGk28LVSRiE %}
+{{< youtube OGk28LVSRiE >}}
 
 [1]: http://www.jamfsoftware.com/
 [2]: http://www.jamfsoftware.com/latest/video-ghost-in-the-cloud

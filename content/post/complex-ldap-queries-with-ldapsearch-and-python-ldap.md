@@ -10,11 +10,13 @@ I recently needed to test a complex LDAP query in a Python script I was writing.
 
 To test the query I used the trusty `ldapsearch` utility. For example, to find the email addresses of all users in the "Example" OU that 1) have a nickname beginning with "M", 2) are full time employees, and 3) their department number doesn't start with "5" _or_ their login shell is `/bin/bash`, use the following command:
 
-`ldapsearch -LLL -x -H ldap://ldap.example.com -b "ou=Example,dc=example,dc=com" '(&(nickname=M*)(employeeType=fulltime)(|(!(departmentNumber=5*))(loginShell=/bin/bash)))' mail | awk '/mail: / { print $2 }'`
+```sh
+ldapsearch -LLL -x -H ldap://ldap.example.com -b "ou=Example,dc=example,dc=com" '(&(nickname=M*)(employeeType=fulltime)(|(!(departmentNumber=5*))(loginShell=/bin/bash)))' mail | awk '/mail: / { print $2 }'
+```
 
 To perform the same query in Python, try the following:
 
-{% codeblock lang:python %}
+```python
 import ldap
 import sys
  
@@ -79,6 +81,6 @@ def main():
  
 if __name__ == '__main__':
     sys.exit(main())
-{% endcodeblock %}
+```
 
-Happy LDAP'ing.
+Happy `LDAP`ing.
