@@ -103,9 +103,6 @@ menu:
     - name: Talks
       url: /talks/
       weight: 5
-    - name: Portfolio
-      url: /portfolio/
-      weight: 6
 
 markup:
   tableOfContents:

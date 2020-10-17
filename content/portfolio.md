@@ -1,10 +1,5 @@
 +++
 slug = "portfolio"
 title = "Portfolio"
+type = "portfolio"
 +++
-
-# Portfolio
-
-* Foo
-* Bar
-* Baz
