@@ -11,6 +11,7 @@
       <h1 class="posttitle" itemprop="name headline">
         {{ .Title }}
       </h1>
+      <hr>
       <div class="meta">
         {{ if (or (not (eq (.Site.Author.name | default "") "")) (not (eq (.Site.Title | default "") "")) ) }}
         <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -56,6 +57,7 @@
         {{ end }}
       </div>
     </header>
+    <hr>
 
   {{ with .Resources.ByType "image" }}
     <div class="article-gallery">
