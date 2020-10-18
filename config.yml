@@ -19,6 +19,10 @@ taxonomies:
 permalinks:
   post: /:year/:month/:day/:title/
 
+comments:
+  enabled: true # default = false
+  engine: disqus
+
 params:
   custom_css: ["custom.css"]
   colortheme: "classic" # dark, light, white, or classic
@@ -41,10 +45,6 @@ params:
 
   # Post page settings
   show_updated: true # default = false
-
-  comments:
-    - enabled: true # default = false
-      engine: disqus
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
