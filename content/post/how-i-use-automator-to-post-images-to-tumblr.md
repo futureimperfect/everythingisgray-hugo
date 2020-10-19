@@ -18,4 +18,4 @@ The first thing I did was create two variables. One for the name of the post and
 
 Below is the printed Workflow for your reference should you wish to accomplish something similar. If you have any suggestions as to improving this Automator Workflow please leave a comment. For more information regarding Tumblr's post via email option please visit [http://www.tumblr.com/docs/en/email_publishing](http://www.tumblr.com/docs/en/email_publishing).
 
-{% img fancybox /images/2010-08-19-how-i-use-automator-to-post-images-to-tumblr/posttokoobtra.jpg Post to Tumblr %}
+![Post to Tumblr](/images/2010-08-19-how-i-use-automator-to-post-images-to-tumblr/posttokoobtra.jpg "Post to Tumblr")

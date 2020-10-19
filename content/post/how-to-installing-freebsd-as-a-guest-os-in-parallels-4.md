@@ -30,4 +30,4 @@ The last step is to choose your installation media. Notice that there is no imag
 
 That's it. You should be up and running with FreeBSD as a guest OS.
 
-{% img fancybox /images/2009-04-17-how-to-installing-freebsd-as-a-guest-os-in-parallels-4/installing_bsd.png Installing FreeBSD %}
+![Installing FreeBSD](/images/2009-04-17-how-to-installing-freebsd-as-a-guest-os-in-parallels-4/installing_bsd.png "Installing FreeBSD")
