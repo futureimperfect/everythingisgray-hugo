@@ -2,7 +2,6 @@
 title = "Option (Left|Right) Arrow Navigation in iTerm2"
 date = "2013-11-03"
 slug = "2013/11/03/option-left-right-arrow-navigation-in-iterm2"
-published = false
 Categories = ["Technology", "OS X"]
 Tags = ["Technology", "OS X"]
 +++

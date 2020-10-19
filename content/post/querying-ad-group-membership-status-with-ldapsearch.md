@@ -2,7 +2,6 @@
 title = "Querying AD Group Membership Status With ldapsearch"
 date = "2014-01-02"
 slug = "2014/01/02/querying-ad-group-membership-status-with-ldapsearch"
-published = false
 Categories = ["OS X", "Unix", "Technology"]
 Tags = ["OS X", "Unix", "Technology"]
 +++

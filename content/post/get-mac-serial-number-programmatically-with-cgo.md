@@ -2,7 +2,6 @@
 title = "Get Mac Serial Number Programmatically With Cgo"
 date = "2018-12-01"
 slug = "2018/12/01/get-mac-serial-number-programmatically-with-cgo"
-published = false
 Categories = ["macOS", "Go", "Golang", "Cgo", "IOKit"]
 +++
 

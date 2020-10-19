@@ -2,7 +2,6 @@
 title = "AutoPkgr - A Front End for AutoPkg"
 date = "2014-07-21"
 slug = "2014/07/21/autopkgr"
-published = false
 Categories = ["OS X", "Technology", "Cocoa", "Objective-C"]
 +++
 

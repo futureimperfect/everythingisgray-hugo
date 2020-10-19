@@ -2,7 +2,6 @@
 title = "Speaking at the 2013 JAMF Nation User Conference"
 date = "2013-09-10"
 slug = "2013/09/10/speaking-at-the-2013-jamf-nation-user-conference"
-published = false
 Categories = ["OS X", "Technology", "Casper"]
 Tags = ["OS X", "Technology", "Casper"]
 +++
