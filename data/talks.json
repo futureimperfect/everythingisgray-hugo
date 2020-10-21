@@ -13,6 +13,18 @@
          "code_url":"https://github.com/duo-labs/chain-of-fools"
       },
       {
+         "date":"September 2019",
+         "conference":"W3C Technical Plenary and Advisory Committee Meetings (TPAC)",
+         "conference_url":"https://www.w3.org/2019/09/TPAC/",
+         "location":"Fukuoka, Japan",
+         "title":"WebAuthn Network Transport",
+         "url":"https://lists.w3.org/Archives/Public/public-webauthn/2019Sep/0072.html",
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/W3C%20TPAC%202019%20-%20WebAuthn%20Network%20Transport/WebAuthn%20Network%20Transport.pdf",
+         "whitepaper_url":"https://github.com/w3c/webauthn/files/4588654/The.Network.Transport.May.2020.pdf",
+         "video_url":null,
+         "code_url":"https://github.com/w3c/webauthn/issues/1381"
+      },
+      {
          "date":"April 2019",
          "conference":"Cisco Offensive Summit",
          "conference_url":null,
