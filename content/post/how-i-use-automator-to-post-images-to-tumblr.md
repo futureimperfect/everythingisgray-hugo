@@ -2,6 +2,10 @@
 date = "2010-08-19"
 slug = "2010/08/19/how-i-use-automator-to-post-images-to-tumblr"
 title = "Automatically Post Images to Tumblr with Automator"
+url = "/2010/08/19/how-i-use-automator-to-post-images-to-tumblr/"
+aliases = [
+    "/2010/08/19/automatically-post-images-to-tumblr-with-automator/"
+]
 Categories = ["Art", "OS X", "Technology"]
 Tags = ["Art", "OS X", "Technology"]
 +++
