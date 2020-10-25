@@ -19,16 +19,16 @@ taxonomies:
 permalinks:
   post: /:year/:month/:day/:title/
 
-comments:
-  enabled: true # default = false
-  engine: disqus
-
 params:
   custom_css: ["custom.css"]
   colortheme: "classic" # dark, light, white, or classic
   rss: true # generate rss feed. default value is false
   googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
   logo: /images/logo.svg
+
+  comments:
+    enabled: true # default = false
+    engine: disqus
 
   # Home page settings
   description: A place to put stuff.
