@@ -1,0 +1,34 @@
+{
+   "list": [
+      {
+         "name":"macOS Notarization, Hardware-backed Code Signing Keys, and Sparkle Code Signing Issues",
+         "url":"https://duo.com/labs/tech-notes/macos-notarization-hardware-backed-code-signing-keys-and-sparkle-code-signing-issues",
+         "date":"2019-09-09"
+      },
+      {
+         "name":"A Look Back at True2F",
+         "url":"https://duo.com/blog/a-look-back-at-true2f",
+         "date":"2019-04-15"
+      },
+      {
+         "name":"The Passwordless Future is Here: Are You Ready?",
+         "url":"https://duo.com/blog/the-passwordless-future-is-here-are-you-ready",
+         "date":"2018-05-18"
+      },
+      {
+         "name":"Humans Only: Duo Mobile and Android Protected Confirmation",
+         "url":"https://duo.com/blog/humans-only-duo-mobile-and-android-protected-confirmation",
+         "date":"2018-05-10"
+      },
+      {
+         "name":"Announcing DuoAPISwift: A Duo API Client for Swift",
+         "url":"https://duo.com/blog/announcing-duoapiswift-a-duo-api-client-for-swift",
+         "date":"2016-11-18"
+      },
+      {
+         "name":"Duolytics: OS X Upgrade Adoption",
+         "url":"https://duo.com/blog/duolytics-os-x-upgrade-adoption",
+         "date":"2016-03-14"
+      }
+   ]
+}

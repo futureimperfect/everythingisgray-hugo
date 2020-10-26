@@ -1,0 +1,14 @@
+{
+   "list": [
+      {
+         "name":"Chain of Fools: An Exploration of Certificate Chain Validation Mishaps",
+         "url":"https://duo.com/labs/research/chain-of-fools",
+         "date":"2019-12-03"
+      },
+      {
+         "name":"MDM Me Maybe: Device Enrollment Program Security",
+         "url":"https://duo.com/labs/research/mdm-me-maybe",
+         "date":"2018-09-27"
+      }
+   ]
+}

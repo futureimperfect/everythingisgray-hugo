@@ -38,6 +38,10 @@ params:
   tagsOverview: false # show tags overview by default.
   showProjectsList: true # show projects list by default (if projects data file exists).
   projectsUrl: /projects/
+  showResearchList: true # show research list by default (if research data file exists).
+  researchUrl: /research/
+  showWritingsList: true # show writings list by default (if writings data file exists).
+  writingsUrl: /research/
   talksUrl: /talks/
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
@@ -100,9 +104,12 @@ menu:
     - name: Projects
       url: /projects/
       weight: 4
+    - name: Research
+      url: /research/
+      weight: 5
     - name: Talks
       url: /talks/
-      weight: 5
+      weight: 6
 
 markup:
   tableOfContents:
