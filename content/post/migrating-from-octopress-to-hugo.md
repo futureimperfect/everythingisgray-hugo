@@ -1,12 +1,11 @@
 ---
 title: "Migrating From Octopress to Hugo"
 date: 2020-11-03T20:09:25-05:00
-draft: true
 ---
 
 ![Hugo](/images/hugo-logo-wide.svg "Hugo Logo")
 
-I recently migrated my blog from [Octopress](http://octopress.org/) to [Hugo](https://gohugo.io/). I did this for a few reasons:
+I recently migrated this blog from [Octopress](http://octopress.org/) to [Hugo](https://gohugo.io/). I did this for a few reasons:
 
 1. I know next to nothing about Ruby, so troubleshooting toolchain and dependency issues in order to deploy my static site was a huge pain.
 2. Octopress hasn't been updated in _years_. Hugo, on the other hand, is _very_ actively maintained.
