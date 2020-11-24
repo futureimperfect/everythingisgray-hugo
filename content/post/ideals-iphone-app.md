@@ -1,6 +1,9 @@
 +++
 date = "2009-08-01"
-slug = "2009/08/01/ideals-iphone-ap"
+slug = "2009/08/01/ideals-iphone-app"
+aliases = [
+    "/2009/08/01/ideals-iphone-ap/"
+]
 title = "iDeals iPhone App"
 Categories = ["iPhone"]
 Tags = ["iPhone"]
