@@ -1,6 +1,16 @@
 {
    "list": [
       {
+         "date":"November 2020",
+         "conference":"FIDO Authenticate",
+         "conference_url":"https://authenticatecon.com/",
+         "location":"Virtual",
+         "title":"WebAuthn Development: Demystifying the Hard Parts",
+         "url":"https://authenticatecon.com/session/lunch-and-learn-session-fido-technical-101/",
+         "slides_url":"https://github.com/futureimperfect/slides/blob/master/FIDO%20Authenticate%202020%20-%20WebAuthn%20Development%20-%20Demystifying%20the%20Hard%20Parts/WebAuthn%20Development%20-%20Demystifying%20the%20Hard%20Parts.pdf",
+         "video_url":"https://virtual2020.authenticatecon.com/s/landing-page5/home"
+      },
+      {
          "date":"December 2019",
          "conference":"Black Hat EU",
          "conference_url":"https://www.blackhat.com/eu-19/",
