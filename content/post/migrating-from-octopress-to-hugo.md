@@ -1,9 +1,11 @@
 ---
 title: "Migrating From Octopress to Hugo"
 date: 2020-11-03T20:09:25-05:00
+description: "How and why I switched my personal site from Octopress to Hugo."
+images: ["/images/2020-11-03-migrating-from-octopress-to-hugo/everythingisgray-plus-hugo.png"]
 ---
 
-![Hugo](/images/hugo-logo-wide.svg "Hugo Logo")
+![Everything is Gray + Hugo](/images/2020-11-03-migrating-from-octopress-to-hugo/everythingisgray-plus-hugo.png "Everything is Gray + Hugo")
 
 I recently migrated this blog from [Octopress](http://octopress.org/) to [Hugo](https://gohugo.io/). I did this for a few reasons:
 
