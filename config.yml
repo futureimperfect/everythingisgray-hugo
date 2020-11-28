@@ -4,7 +4,8 @@ defaultContentLanguage: en
 disqusShortname: everythingisgray
 enableGitInfo: true
 footnoteReturnLinkContents: ↩
-# googleAnalytics: UA-123456789-1
+googleAnalytics: UA-183993696-1
+
 languageCode: en-us
 # summaryLength: 2
 theme: cactus
