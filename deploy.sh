@@ -2,7 +2,7 @@
 
 ACTOR=futureimperfect
 HUGO=hugo
-HUGO_VERSION=0.78.1
+HUGO_VERSION=0.79.0
 TARGET_REPO=futureimperfect/futureimperfect.github.io
 THEME=cactus
 
@@ -36,6 +36,9 @@ if [ "$CI" = "true" ]; then
 else
     REMOTE_REPO="git@github.com:futureimperfect/futureimperfect.github.io.git"
 fi
+
+# Themes use submodules. We need them. Don't include the GitHub Pages repo in the updates, though.
+git -c submodule."futureimperfect/futureimperfect.github.io".update=none submodule update --init --recursive
 
 if [ "$CI" = "true" ]; then
     echo "Installing Hugo..."
