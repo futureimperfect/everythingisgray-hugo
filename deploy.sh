@@ -69,6 +69,13 @@ fi
 # Remove the existing public .git dir.
 rm -rf .git
 
+# Create CNAME file.
+if [ -z "$CNAME" ]; then
+    echo "${GITHUB_ACTOR}.github.io" > CNAME
+else
+    echo "$CNAME" > CNAME
+fi
+
 # Create a new Git repo.
 git init
 git config user.name "$GITHUB_ACTOR"
