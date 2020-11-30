@@ -61,20 +61,17 @@ fi
 
 # Go to the public folder.
 if [ "$CI" = "true" ]; then
-    cd "${GITHUB_WORKSPACE}/public"
+    PUBLIC_DIR="${GITHUB_WORKSPACE}/public"
 else
-    cd "${SCRIPT_DIR}/public"
+    PUBLIC_DIR="${SCRIPT_DIR}/public"
 fi
+cd "$PUBLIC_DIR"
 
 # Remove the existing public .git dir.
 rm -rf .git
 
-# Create CNAME file.
-if [ -z "$CNAME" ]; then
-    echo "${GITHUB_ACTOR}.github.io" > CNAME
-else
-    echo "$CNAME" > CNAME
-fi
+# Add a README.md.
+echo "# ${GITHUB_ACTOR}.github.io" > "${PUBLIC_DIR}/README.md"
 
 # Create a new Git repo.
 git init
