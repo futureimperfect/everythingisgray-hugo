@@ -38,7 +38,7 @@ else
 fi
 
 # Themes use submodules. We need them. Don't include the GitHub Pages repo in the updates, though.
-git -c submodule."futureimperfect/futureimperfect.github.io".update=none submodule update --init --recursive
+git -c submodule."public".update=none submodule update --init --recursive
 
 if [ "$CI" = "true" ]; then
     echo "Installing Hugo..."
