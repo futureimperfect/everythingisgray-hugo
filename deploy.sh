@@ -37,8 +37,6 @@ else
     REMOTE_REPO="git@github.com:futureimperfect/futureimperfect.github.io.git"
 fi
 
-git submodule update --init --recursive
-
 if [ "$CI" = "true" ]; then
     echo "Installing Hugo..."
     curl -fsSL "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" > hugo.tar.gz && tar -zxvf hugo.tar.gz
