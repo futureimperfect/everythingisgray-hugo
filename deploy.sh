@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ACTOR=futureimperfect
+CNAME=everythingisgray.com
 HUGO=hugo
 HUGO_VERSION=0.79.0
 TARGET_REPO=futureimperfect/futureimperfect.github.io
@@ -69,6 +70,13 @@ cd "$PUBLIC_DIR"
 
 # Remove the existing public .git dir.
 rm -rf .git
+
+# Create CNAME file.
+if [ -z "$CNAME" ]; then
+    echo "${GITHUB_ACTOR}.github.io" > CNAME
+else
+    echo "$CNAME" > CNAME
+fi
 
 # Add a README.md.
 echo "# ${GITHUB_ACTOR}.github.io" > "${PUBLIC_DIR}/README.md"
