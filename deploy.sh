@@ -33,10 +33,9 @@ fi
 
 if [ "$CI" = "true" ]; then
     cd "$GITHUB_WORKSPACE" || exit 1
-    REMOTE_REPO="https://${TOKEN}@github.com/${TARGET_REPO}.git"
-else
-    REMOTE_REPO="git@github.com:futureimperfect/futureimperfect.github.io.git"
 fi
+
+REMOTE_REPO="git@github.com:${TARGET_REPO}.git"
 
 # Themes use submodules. We need them. Don't include the GitHub Pages repo in the updates, though.
 git -c submodule."public".update=none submodule update --init --recursive
@@ -99,7 +98,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push --force "$REMOTE_REPO" master:"${REF}"
+git push --force "$REMOTE_REPO" "master:${REF}"
 
 # Go back to the original directory.
 cd -
