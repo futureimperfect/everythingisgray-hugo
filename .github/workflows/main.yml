@@ -16,9 +16,13 @@ jobs:
       # Checks-out the repository under $GITHUB_WORKSPACE, so the job can access it.
       - uses: actions/checkout@v2
 
-      # Runs the deploy.sh script.
-      - name: Deploy the site.
+      # Loads the Deploy Key SSH private key into the SSH agent.
+      # Will be used by Git to deploy to the GitHub Pages repo.
+      - name: webfactory/ssh-agent
         uses: webfactory/ssh-agent@v0.4.1
-        run: ./deploy.sh
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Runs the deploy.sh script.
+      - name: Deploy the site.
+        run: ./deploy.sh
