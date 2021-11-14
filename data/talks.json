@@ -1,6 +1,16 @@
 {
    "list": [
       {
+         "date":"October 2021",
+         "conference":"KubeCon",
+         "conference_url":"https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+         "location":"Los Angeles, CA",
+         "title":"AuthN and AuthZ at Cruise: Crawl, Walk, Run",
+         "url":"https://kccncna2021.sched.com/event/lV6M/authn-and-authz-at-cruise-crawl-walk-run-james-barclay-roman-porter-cruise",
+         "slides_url":"https://static.sched.com/hosted_files/kccncna2021/c5/AuthN%20and%20AuthZ%20at%20Cruise_%20Crawl%2C%20Walk%2C%20Run.pdf",
+         "video_url":"https://youtu.be/VrtlM7aOg2M"
+      },
+      {
          "date":"November 2020",
          "conference":"FIDO Authenticate",
          "conference_url":"https://authenticatecon.com/",
