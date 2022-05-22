@@ -23,10 +23,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.89.2'
+          hugo-version: '0.99.1'
 
       - name: Build
-        run: hugo --minify -t cactus
+        run: make build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
