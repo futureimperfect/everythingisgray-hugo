@@ -15,7 +15,8 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE,
       # so the job can access it.
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -27,10 +28,10 @@ jobs:
           extended: true
 
       - name: Build
-        run: make build
+        run: hugo --minify -t cactus
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           cname: everythingisgray.com
