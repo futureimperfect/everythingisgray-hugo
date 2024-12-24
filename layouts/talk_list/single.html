@@ -29,7 +29,7 @@
                 {{ with .conference_url }}<a href="{{ . }}">{{ end }}{{ .conference | markdownify }}{{ with .conference_url }}</a>{{ end }}
             </strong> - {{ .location | markdownify }} - 
             {{ with .url }}<a href="{{ . }}">{{ end }}{{ .title | markdownify }}{{ with .url }}</a>{{ end }} 
-            ({{ delimit $s ", " }})
+            ({{ delimit $s ", " | safeHTML }})
         </li>
         {{ if lt (add $index 1) $len }}<hr></hr>{{ end }}
         {{ end }}

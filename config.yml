@@ -1,7 +1,6 @@
 baseURL: https://everythingisgray.com/
 copyright: James Barclay
 defaultContentLanguage: en
-disqusShortname: everythingisgray
 enableGitInfo: true
 footnoteReturnLinkContents: ↩
 googleAnalytics: UA-183993696-1
@@ -16,24 +15,34 @@ author:
 
 taxonomies:
   tag: tags
+  category: categories
 
 permalinks:
   post: /:year/:month/:day/:title/
 
+services:
+  disqus:
+    shortname: everythingisgray
+
 params:
+  author:
+    name: James Barclay
   custom_css: ["custom.css"]
   colortheme: "classic" # dark, light, white, or classic
-  rss: true # generate rss feed. default value is false
+  disableCopy: true
   googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
   logo: /images/logo.svg
+  rss: true # generate rss feed. default value is false
+  showReadTime: true
 
   comments:
-    enabled: true # default = false
+    enabled: false # default = false
     engine: disqus
 
   # Home page settings
   description: A place to put stuff.
   mainSection: posts # your main section.
+  showAllPostsArchive: false
   showAllPostsOnHomePage: true # default = false
   postsOnHomePage: 10 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview: false # show tags overview by default.
@@ -71,7 +80,7 @@ params:
     - name: pinterest
       link: https://www.pinterest.com/futureimperfect/boards/
     - name: reddit
-      link: https://old.reddit.com/user/imperfectfuture/
+      link: https://reddit.com/user/imperfectfuture/
     - name: rss
       link: /index.xml
     - name: stack-exchange
@@ -115,7 +124,10 @@ menu:
       weight: 6
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   tableOfContents:
-      endLevel: 4
-      ordered: false
-      startLevel: 2
+    endLevel: 4
+    ordered: false
+    startLevel: 2
