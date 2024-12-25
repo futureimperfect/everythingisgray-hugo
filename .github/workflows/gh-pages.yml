@@ -27,7 +27,7 @@ jobs:
           # TODO: Update once `withDeploy` is supported in peaceiris/actions-hugo.
           #
           # https://github.com/peaceiris/actions-hugo/issues/658
-          hugo-version: '0.119.0'
+          hugo-version: '0.112.7'
           extended: true
 
       - name: Build
