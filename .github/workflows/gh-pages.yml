@@ -11,30 +11,30 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-20.04
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE,
       # so the job can access it.
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v2
         with:
           # TODO: Update once `withDeploy` is supported in peaceiris/actions-hugo.
           #
           # https://github.com/peaceiris/actions-hugo/issues/658
           hugo-version: '0.112.7'
-          extended: true
+          # extended: true
 
       - name: Build
         run: make build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           cname: everythingisgray.com
