@@ -5,9 +5,3 @@
 	path = public
 	url = git@github.com:futureimperfect/futureimperfect.github.io.git
 	branch = master
-[submodule "themes/cupper-hugo-theme"]
-	path = themes/cupper-hugo-theme
-	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
-[submodule "themes/gohugo-theme-ananke"]
-	path = themes/gohugo-theme-ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
