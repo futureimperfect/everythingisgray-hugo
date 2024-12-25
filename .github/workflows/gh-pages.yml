@@ -13,7 +13,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-24.04
     env:
-      HUGO_VERSION: 0.141.1
+      HUGO_VERSION: 0.140.1
     steps:
       - name: Setup Hugo
         # TODO: Update to use peaceiris/actions-hugo once `withDeploy` is supported.
