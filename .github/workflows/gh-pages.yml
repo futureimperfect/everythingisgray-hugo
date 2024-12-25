@@ -24,7 +24,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.140.0'
+          # TODO: Update once `withDeploy` is supported in peaceiris/actions-hugo.
+          #
+          # https://github.com/peaceiris/actions-hugo/issues/658
+          hugo-version: '0.137.0'
           extended: true
 
       - name: Build
