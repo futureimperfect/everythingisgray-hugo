@@ -16,7 +16,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.140.1'
+          hugo-version: '0.140.0'
           extended: true
 
       # Checks-out the repository under $GITHUB_WORKSPACE,
