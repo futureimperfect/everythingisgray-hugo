@@ -12,12 +12,15 @@ on:
 jobs:
   build-deploy:
     runs-on: macos-latest
+    env:
+      HUGO_VERSION: 0.140.1
     steps:
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.140.0'
-          extended: true
+        # uses: peaceiris/actions-hugo@v3
+        # with:
+        #   hugo-version: '0.140.0'
+        #   extended: true
+        run: brew install hugo@${HUGO_VERSION}
 
       # Checks-out the repository under $GITHUB_WORKSPACE,
       # so the job can access it.
