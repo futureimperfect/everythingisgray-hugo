@@ -11,14 +11,13 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Setup Hugo
-        # uses: peaceiris/actions-hugo@v3
-        # with:
-        #   hugo-version: '0.140.1'
-        #   extended: true
-        run: brew install hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.140.1'
+          extended: true
 
       # Checks-out the repository under $GITHUB_WORKSPACE,
       # so the job can access it.
@@ -29,6 +28,9 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
         run: make build
 
       - name: Deploy

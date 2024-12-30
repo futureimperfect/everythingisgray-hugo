@@ -3,7 +3,6 @@ copyright: James Barclay
 defaultContentLanguage: en
 enableGitInfo: true
 footnoteReturnLinkContents: ↩
-googleAnalytics: UA-183993696-1
 
 languageCode: en-us
 # summaryLength: 2
@@ -23,14 +22,16 @@ permalinks:
 services:
   disqus:
     shortname: everythingisgray
+  googleAnalytics:
+    id: G-7FEYPKH74D
 
 params:
   author:
     name: James Barclay
   custom_css: ["custom.css"]
-  colortheme: "classic" # dark, light, white, or classic
+  style:
+    colortheme: "classic" # dark, light, white, or classic
   disableCopy: true
-  googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
   logo: /images/logo.svg
   rss: true # generate rss feed. default value is false
   showReadTime: true
