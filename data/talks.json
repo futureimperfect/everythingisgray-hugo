@@ -1,6 +1,14 @@
 {
    "list": [
       {
+         "date":"October 2026",
+         "conference":"The Identity Underground Summit",
+         "conference_url":"https://www.theidentityunderground.com/summits/summit-2026-denver",
+         "location":"Denver, CO",
+         "title":"Driving Identity Forward: GM's Real-World Lessons and Best Practices",
+         "url":"https://www.theidentityunderground.com/summits/summit-2026-denver"
+      },
+      {
          "date":"October 2021",
          "conference":"KubeCon",
          "conference_url":"https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
