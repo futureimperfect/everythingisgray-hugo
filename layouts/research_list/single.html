@@ -3,7 +3,7 @@
 
   {{ $showResearchList := false }}
   {{ $researchUrl := "#" }}
-  {{ if .Site.Data.research }}
+  {{ if hugo.Data.research }}
     {{ $showResearchList = true }}
   {{ else if (isset .Site.Params "showResearchList") }}
     {{ $showResearchList = .Site.Params.ShowResearchList }}
@@ -16,7 +16,7 @@
   <section id="research">
     <span class="h1"><a href="{{ $researchUrl }}">Research</a></span>
     <ul class="project-list">
-        {{ range .Site.Data.research.list }}
+        {{ range hugo.Data.research.list }}
         <li class="project-item">
           {{ .date | markdownify }}: <a href="{{ .url }}">{{ .name }}</a>
         </li>
@@ -26,7 +26,7 @@
 
   {{ $showWritingsList := false }}
   {{ $writingsUrl := "#" }}
-  {{ if .Site.Data.writings }}
+  {{ if hugo.Data.writings }}
     {{ $showWritingsList = true }}
   {{ else if (isset .Site.Params "showWritingsList") }}
     {{ $showWritingsList = .Site.Params.ShowWritingsList }}
@@ -39,7 +39,7 @@
   <section id="writings">
     <span class="h1"><a href="{{ $writingsUrl }}">Other Writings</a></span>
     <ul class="project-list">
-        {{ range .Site.Data.writings.list }}
+        {{ range hugo.Data.writings.list }}
         <li class="project-item">
           {{ .date | markdownify }}: <a href="{{ .url }}">{{ .name }}</a>
         </li>

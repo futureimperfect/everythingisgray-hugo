@@ -8,8 +8,8 @@
     <p><em>I've been fortunate enough to speak at various IT and security conferences around the world. I've listed most of these below, along with links to the accompanying slides, videos, white papers, and code.</em></p>
     <p>&nbsp;</p>
     <ul class="project-list">
-        {{ $len := (len .Site.Data.talks.list) }}
-        {{ range $index, $element := .Site.Data.talks.list }}
+        {{ $len := (len hugo.Data.talks.list) }}
+        {{ range $index, $element := hugo.Data.talks.list }}
         {{ $s := slice }}
         {{ with .slides_url }}
             {{ $s = $s | append (printf "<a href=\"%s\">Slides</a>" .) }}
@@ -29,7 +29,7 @@
                 {{ with .conference_url }}<a href="{{ . }}">{{ end }}{{ .conference | markdownify }}{{ with .conference_url }}</a>{{ end }}
             </strong> - {{ .location | markdownify }} - 
             {{ with .url }}<a href="{{ . }}">{{ end }}{{ .title | markdownify }}{{ with .url }}</a>{{ end }} 
-            ({{ delimit $s ", " | safeHTML }})
+            {{- with $s }} ({{ delimit . ", " | safeHTML }}){{ end }}
         </li>
         {{ if lt (add $index 1) $len }}<hr></hr>{{ end }}
         {{ end }}

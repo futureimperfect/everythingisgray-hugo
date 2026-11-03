@@ -4,10 +4,12 @@ defaultContentLanguage: en
 enableGitInfo: true
 footnoteReturnLinkContents: ↩
 
-languageCode: en-us
 # summaryLength: 2
 theme: cactus
 title: Everything is Gray
+
+language:
+  locale: en-US
 
 author:
   name: James Barclay
