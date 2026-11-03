@@ -8,8 +8,7 @@ footnoteReturnLinkContents: ↩
 theme: cactus
 title: Everything is Gray
 
-language:
-  locale: en-US
+locale: en-US
 
 author:
   name: James Barclay
