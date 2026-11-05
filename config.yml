@@ -29,7 +29,7 @@ services:
 params:
   author:
     name: James Barclay
-  custom_css: ["custom.css"]
+  css: ["css/custom.css"]
   style:
     colortheme: "classic" # dark, light, white, or classic
   disableCopy: true
@@ -43,7 +43,7 @@ params:
 
   # Home page settings
   description: A place to put stuff.
-  mainSection: posts # your main section.
+  mainSection: post # your main section.
   showAllPostsArchive: false
   showAllPostsOnHomePage: true # default = false
   postsOnHomePage: 10 # this option will be ignored if showAllPostsOnHomePage is set to true
@@ -133,3 +133,11 @@ markup:
     endLevel: 4
     ordered: false
     startLevel: 2
+
+# Keep whitespace when minifying HTML. Without this, hugo --minify (used by the
+# deploy) drops the spaces next to the theme's inline-styled <div>s and between
+# menu items, so the live site renders differently than hugo server.
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: true

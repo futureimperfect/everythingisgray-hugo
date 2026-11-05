@@ -30,8 +30,8 @@
             </strong> - {{ .location | markdownify }} - 
             {{ with .url }}<a href="{{ . }}">{{ end }}{{ .title | markdownify }}{{ with .url }}</a>{{ end }} 
             {{- with $s }} ({{ delimit . ", " | safeHTML }}){{ end }}
+            {{ if lt (add $index 1) $len }}<hr>{{ end }}
         </li>
-        {{ if lt (add $index 1) $len }}<hr></hr>{{ end }}
         {{ end }}
     </ul>
   </section>
