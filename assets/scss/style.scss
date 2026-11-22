@@ -18,6 +18,7 @@ which pulls in the classic color scheme regardless of what's in config.yml. */
 *:after {
   box-sizing: border-box;
 }
+
 html {
   margin: 0;
   padding: 0;
@@ -26,6 +27,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   height: 100%;
@@ -43,6 +45,7 @@ body {
 
   @extend $base-style !optional;
 }
+
 .content {
   position: relative;
   display: flex;
@@ -53,9 +56,11 @@ body {
   p {
     @include hyphens(auto);
   }
+
   code {
     @include hyphens(manual);
   }
+
   a {
     color: $color-text;
     text-decoration: none;
@@ -66,6 +71,7 @@ body {
       background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link);
     }
   }
+
   a.icon {
     background: none;
 
@@ -73,6 +79,7 @@ body {
       color: $color-link;
     }
   }
+
   h1 a,
   .h1 a,
   h2 a,
@@ -84,6 +91,7 @@ body {
     color: inherit;
     text-decoration: none;
   }
+
   h1 a:hover,
   .h1 a:hover,
   h2 a:hover,
@@ -93,6 +101,7 @@ body {
   h6 a:hover {
     @include underline(6px, $color-link);
   }
+
   h6 {
     a {
       background: none;
@@ -100,12 +109,14 @@ body {
       text-decoration: none;
     }
   }
+
   h6 {
     a:hover {
       @include underline(6px, $color-link);
     }
   }
 }
+
 @media (min-width: 540px) {
   .image-wrap {
     flex-direction: row;
@@ -115,14 +126,17 @@ body {
       flex: 1 0 35%;
       margin-right: 2rem;
     }
+
     p {
       flex: 1 0 65%;
     }
   }
 }
+
 .max-width {
   max-width: $page-width;
 }
+
 @media (max-width: 480px) {  // smaller margins at smaller screen widths
   .px3 {
     padding-right: 1rem;
@@ -233,5 +247,23 @@ code {
         padding-left: 0;
       }
     }
+  }
+}
+
+// The theme hides the top-right post menu up to 500px wide and the mobile menu
+// bar from 500px up, so at exactly 500px (the narrowest desktop browser window)
+// neither showed; keep the bar through 500px. Likewise, both the desktop and tablet
+// menu icons were hidden at exactly 900px; show the desktop one there, with the
+// post's buttons that go with it.
+@media screen and (max-width: 500px) {
+  #footer-post-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #header-post #menu-icon,
+  #header-post #actions {
+    display: block;
   }
 }
