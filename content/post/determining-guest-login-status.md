@@ -10,4 +10,4 @@ The other day I was presented with the challenge of determining whether Guest lo
 
 {{< gist 6203175 095e34ac6a7818ebe4321649bae44a7a618c8faf >}}
 
-[1]: http://www.jamfsoftware.com/software/casper-suite
+[1]: https://www.jamfsoftware.com/software/casper-suite

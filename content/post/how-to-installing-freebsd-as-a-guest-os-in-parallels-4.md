@@ -6,7 +6,7 @@ title = "How To: Installing FreeBSD as a Guest OS in Parallels 4"
 
 I'm by no means a UNIX expert, but I've managed to get the latest stable version of FreeBSD, (7.1), up and running as a guest OS using Parallels Desktop 4. In this tutorial, I will explain exactly what was done to achieve this.
 
-First, you must download the [latest stable version of FreeBSD](http://www.freebsd.org/where.html), (at the time this article was written it's 7.1). Once the download is completed, launch Parallels and chose the ISO image as the source.
+First, you must download the [latest stable version of FreeBSD](https://www.freebsd.org/where.html), (at the time this article was written it's 7.1). Once the download is completed, launch Parallels and chose the ISO image as the source.
 
 Next, you'll have to tell Parallels how many CPU's and the amount of RAM you would like to allocate for the virtual machine. I chose 1 CPU and 512 MB of RAM.
 

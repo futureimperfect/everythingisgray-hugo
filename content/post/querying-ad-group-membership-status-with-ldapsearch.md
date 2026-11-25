@@ -28,5 +28,5 @@ fi
 exit $?
 ```
 
-[1]: http://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer
-[2]: http://web.mit.edu/~kerberos/
+[1]: https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer
+[2]: https://web.mit.edu/~kerberos/

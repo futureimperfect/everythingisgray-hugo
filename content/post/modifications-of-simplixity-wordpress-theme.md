@@ -5,4 +5,4 @@ title = "Modification of \"Simplixity\" WordPress Theme"
 Categories = ["Theme Development", "WordPress"]
 +++
 
-I recently discovered that a gentleman named Pete made a modification of my WordPress theme for his own site. It's exciting to see this being done so early on. It's called [The Teacher List](http://www.theteacherlist.ca/), go check it out.
+I recently discovered that a gentleman named Pete made a modification of my WordPress theme for his own site. It's exciting to see this being done so early on. It's called [The Teacher List](https://www.theteacherlist.ca/), go check it out.

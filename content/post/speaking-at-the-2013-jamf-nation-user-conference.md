@@ -10,7 +10,7 @@ I'm very pleased to announce that [I'll be speaking][1] at the [2013 JAMF Nation
 
 The three day conference is being held at the [Guthrie Theater][4] from October 15-17. Hope to see you there!
 
-[1]: http://www.jamfsoftware.com/events/jamf-nation-user-conference/2013/sessions#james-barclay
-[2]: http://www.jamfsoftware.com/jnuc
+[1]: https://www.jamfsoftware.com/events/jamf-nation-user-conference/2013/sessions#james-barclay
+[2]: https://www.jamfsoftware.com/jnuc
 [3]: https://jamfnation.jamfsoftware.com/jnucEvent.html?eventId=21
-[4]: http://www.guthrietheater.org/
+[4]: https://www.guthrietheater.org/

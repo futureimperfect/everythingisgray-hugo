@@ -67,8 +67,6 @@ params:
   social:
     - name: flickr
       link: https://www.flickr.com/people/everythingisgray/
-    - name: foursquare
-      link: https://foursquare.com/futureimperfect
     - name: github
       link: https://github.com/futureimperfect
     - name: goodreads

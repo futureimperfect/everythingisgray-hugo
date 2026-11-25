@@ -429,15 +429,15 @@ heroku domains:add www.<sitename>.com
 
 [^1]: Yes, I spelled that correctly. Google it.
 
-[1]: http://mxcl.github.io/homebrew/
+[1]: https://mxcl.github.io/homebrew/
 [2]: http://anvilformac.com/
 [3]: https://www.heroku.com/
 [4]: https://toolbelt.heroku.com/
 [5]: https://github.com/thomasf/exitwp
-[6]: http://www.ewal.net/2012/09/08/octopress-customizations/
+[6]: https://www.ewal.net/2012/09/08/octopress-customizations/
 [7]: https://hover.com/9xKyPPEu
 [8]: https://devcenter.heroku.com/articles/custom-domains
-[9]: http://grammar.quickanddirtytips.com/ado-versus-adieu.aspx
-[10]: http://octopress.org/
-[11]: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts_micro_instances.html
-[12]: http://disqus.com/
+[9]: https://grammar.quickanddirtytips.com/ado-versus-adieu.aspx
+[10]: https://octopress.org/
+[11]: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts_micro_instances.html
+[12]: https://disqus.com/

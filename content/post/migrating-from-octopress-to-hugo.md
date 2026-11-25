@@ -7,7 +7,7 @@ images: ["/images/2020-11-03-migrating-from-octopress-to-hugo/everythingisgray-p
 
 ![Everything is Gray + Hugo](/images/2020-11-03-migrating-from-octopress-to-hugo/everythingisgray-plus-hugo.png "Everything is Gray + Hugo")
 
-I recently migrated this blog from [Octopress](http://octopress.org/) to [Hugo](https://gohugo.io/). I did this for a few reasons:
+I recently migrated this blog from [Octopress](https://octopress.org/) to [Hugo](https://gohugo.io/). I did this for a few reasons:
 
 1. I know next to nothing about Ruby, so troubleshooting toolchain and dependency issues in order to deploy my static site was a huge pain.
 2. Octopress hasn't been updated in _years_. Hugo, on the other hand, is _very_ actively maintained.

@@ -18,6 +18,6 @@ It's been a ton of fun developing AutoPkgr, and best of all the response from th
 Here's to making awesome tools and sharing them.
 
 [1]: http://joshsenick.com
-[2]: http://elliotjordan.com
+[2]: https://elliotjordan.com
 [3]: https://github.com/lindegroup/autopkgr
-[4]: http://autopkg.github.io/autopkg
+[4]: https://autopkg.github.io/autopkg

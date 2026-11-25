@@ -18,4 +18,4 @@ If your machine is not 64 bit capable, the result will be
 
 `hw.cpu64bit_capable: 0`
 
-Tip source: [OSXDaily.com](http://osxdaily.com/2009/09/23/check-if-your-mac-is-64-bit-compatible-via-command-line/)
+Tip source: [OSXDaily.com](https://osxdaily.com/2009/09/23/check-if-your-mac-is-64-bit-compatible-via-command-line/)

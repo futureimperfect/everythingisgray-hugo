@@ -12,8 +12,8 @@ You can find the show notes and download the episode at: [5by5.tv/systematic/58]
 
 Thanks for listening!
 
-[![Systematic](/images/2013-08-24-guest-appearance-on-5by5-s-systematic/systematiclogo.jpg)](http://5by5.tv/systematic)
+[![Systematic](/images/2013-08-24-guest-appearance-on-5by5-s-systematic/systematiclogo.jpg)](https://5by5.tv/systematic)
 
-[1]: http://brettterpstra.com
-[2]: http://5by5.tv/systematic
-[3]: http://5by5.tv/systematic/58
+[1]: https://brettterpstra.com
+[2]: https://5by5.tv/systematic
+[3]: https://5by5.tv/systematic/58

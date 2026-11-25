@@ -14,7 +14,7 @@ Last week I was presented with a problem that involved restoring a MySQL databas
 
 *NOTE* The MySQL database I was tasked with restoring was associated with a WordPress installation. My guess is that this is irrelevant, though.
 
-*ALSO NOTE* This article assumes you are comfortable with software solutions such as [MAMP](http://www.mamp.info/en/index.html) and/or [XAMPP](http://www.apachefriends.org/en/xampp.html), as well as [phpMyAdmin](http://www.phpmyadmin.net/home_page/index.php).
+*ALSO NOTE* This article assumes you are comfortable with software solutions such as [MAMP](https://www.mamp.info/en/index.html) and/or [XAMPP](https://www.apachefriends.org/en/xampp.html), as well as [phpMyAdmin](https://www.phpmyadmin.net/home_page/index.php).
 
 I made the decision early on to solve this problem locally, (I find that working directly from a web server usually just gets me into trouble).  I use MAMP on a regular basis and as such have quite a few MySQL databases associated with that installation. Rather than fooling with this at all I opted to use XAMPP on a Windows XP SP2 machine. Either one of these solutions will work, as they essentially provide the same services. I chose to avoid using MAMP on my machine because of everything I have invested into that application, but that doesn't mean you have to.
 
