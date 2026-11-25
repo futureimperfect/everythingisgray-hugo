@@ -26,10 +26,10 @@
   {{ with resources.Get "scss/style.scss" }}
     {{ $opts := dict
       "targetPath" "css/style.css"
-      "transpiler" "libsass"
+      "transpiler" "dartsass"
       "vars" site.Params.style
     }}
-    {{ with . | toCSS $opts }}
+    {{ with . | css.Sass $opts }}
       {{ if hugo.IsDevelopment }}
         <link rel="stylesheet" href="{{ .RelPermalink }}">
       {{ else }}
