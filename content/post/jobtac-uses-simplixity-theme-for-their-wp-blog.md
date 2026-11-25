@@ -6,4 +6,4 @@ Categories = ["Theme Development", "WordPress"]
 Tags = ["Web Design", "Web Development", "WordPress"]
 +++
 
-It's become rather amusing for me to find out just who is using my WordPress theme. Sometimes it's not so flattering, other times it is. The other day I discovered that [Jobtac](http://www.jobtac.com/), a job posting site for employers and job seekers alike, is using [Simplixity](http://wordpress.org/extend/themes/simplixity) for [their blog](http://www.jobtac.com/blog/). Thanks a lot, guys!
+It's become rather amusing for me to find out just who is using my WordPress theme. Sometimes it's not so flattering, other times it is. The other day I discovered that [Jobtac](https://www.jobtac.com/), a job posting site for employers and job seekers alike, is using [Simplixity](https://wordpress.org/extend/themes/simplixity) for [their blog](https://www.jobtac.com/blog/). Thanks a lot, guys!

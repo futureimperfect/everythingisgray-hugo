@@ -9,4 +9,4 @@ Categories = ["iPhone"]
 Tags = ["iPhone"]
 +++
 
-So I had the pleasure of meeting the gentleman that develops the [iDeals](http://fiveohfive.com/iDeals.html) iPhone application a few days ago. iDeals was designed to provide an easy to use interface for tracking deals from Amazon, EB Games, Buy.com, Woot!, etc. The iDeals app pulls its information from [DODTracker.com](http://www.dodtracker.com/) servers, but is far more enjoyable than visiting the site itself. Best of all it's free, go download it.
+So I had the pleasure of meeting the gentleman that develops the [iDeals](https://fiveohfive.com/iDeals.html) iPhone application a few days ago. iDeals was designed to provide an easy to use interface for tracking deals from Amazon, EB Games, Buy.com, Woot!, etc. The iDeals app pulls its information from [DODTracker.com](https://www.dodtracker.com/) servers, but is far more enjoyable than visiting the site itself. Best of all it's free, go download it.

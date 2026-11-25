@@ -297,10 +297,10 @@ Target 0: (one_through_five) stopped.
 Hopefully, if you've read this far, you now have a better understanding of what LLDB is and how to use it to debug your own software. LLDB is an extremely powerful tool, and the possibilities for what you can do with it are nearly endless! Stay tuned for next time, as I'll be covering more advanced LLDB topics.
 
 [1]: https://lldb.llvm.org
-[2]: http://llvm.org/
-[3]: http://www.nondot.org/sabre/
-[4]: http://llvm.org/pubs/2002-12-LattnerMSThesis.html
-[5]: http://llvm.org/pubs/2005-05-04-LattnerPHDThesis.html
+[2]: https://llvm.org/
+[3]: https://www.nondot.org/sabre/
+[4]: https://llvm.org/pubs/2002-12-LattnerMSThesis.html
+[5]: https://llvm.org/pubs/2005-05-04-LattnerPHDThesis.html
 [6]: https://illinois.edu
 [7]: https://www.eclipse.org/community/eclipse_newsletter/2017/june/article1.php
 [8]: https://www.gnu.org/s/gdb/

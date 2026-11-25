@@ -12,7 +12,7 @@ The slides for this talk are available on my [GitHub][4] if you want to follow a
 
 {{< youtube OGk28LVSRiE >}}
 
-[1]: http://www.jamfsoftware.com/
-[2]: http://www.jamfsoftware.com/latest/video-ghost-in-the-cloud
-[3]: http://www.jamfsoftware.com/jnuc
+[1]: https://www.jamfsoftware.com/
+[2]: https://www.jamfsoftware.com/latest/video-ghost-in-the-cloud
+[3]: https://www.jamfsoftware.com/jnuc
 [4]: https://github.com/futureimperfect/slides

@@ -16,4 +16,4 @@ I know I've tried iTerm in the past, and I'm pretty sure not being able to do th
 
 [![iTerm2 Preferences](/images/2013-11-03-option-left-right-arrow-navigation-in-iterm2/iterm2_preferences.png)](https://code.google.com/p/iterm2/wiki/Keybindings)
 
-[1]: http://www.iterm2.com/#/section/home
+[1]: https://www.iterm2.com/#/section/home

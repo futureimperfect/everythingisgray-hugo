@@ -147,7 +147,7 @@
       {
          "date":"September 2015",
          "conference":"Macbrained at Square",
-         "conference_url":"http://macbrained.org/",
+         "conference_url":"https://macbrained.org/",
          "location":"San Francisco, CA",
          "title":"Working with System Frameworks in Python and Objective-C",
          "url":null,
@@ -163,7 +163,7 @@
          "location":"State College, PA",
          "title":"Working with System Frameworks in Python and Objective-C",
          "url":"https://macadmins.psu.edu/2015/04/19/psumac2015-62/",
-         "slides_url":"http://macadmins.psu.edu/wp-content/uploads/sites/24696/2015/07/psumac2015-62-Working_with_System_Frameworks_in_Python_and_Objective-C.pdf",
+         "slides_url":"https://macadmins.psu.edu/wp-content/uploads/sites/24696/2015/07/psumac2015-62-Working_with_System_Frameworks_in_Python_and_Objective-C.pdf",
          "whitepaper_url":null,
          "video_url":"https://www.youtube.com/watch?v=6CY-DCfhAzw",
          "code_url":"https://github.com/futureimperfect/psu-pyobjc-demo"
@@ -171,7 +171,7 @@
       {
          "date":"August 2014",
          "conference":"Macbrained at Zendesk",
-         "conference_url":"http://macbrained.org/",
+         "conference_url":"https://macbrained.org/",
          "location":"San Francisco, CA",
          "title":"Creating GUIs for Command-Line Utilities With Objective-C/Cocoa",
          "url":null,
@@ -183,7 +183,7 @@
       {
          "date":"January 2014",
          "conference":"Macbrained at The Linde Group",
-         "conference_url":"http://macbrained.org/",
+         "conference_url":"https://macbrained.org/",
          "location":"Berkeley, CA",
          "title":"Command-Line Productivity for Mac Admins",
          "url":null,

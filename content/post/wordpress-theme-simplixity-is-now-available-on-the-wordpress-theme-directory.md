@@ -6,4 +6,4 @@ Categories = ["Theme Development", "WordPress"]
 Tags = ["Theme Development", "WordPress"]
 +++
 
-After correcting a minor mistake that I made to my credit link, the folks at WordPress accepted my new theme and will be featuring it on the WordPress theme directory page. If you'd like to preview or download the theme you can do so [here](http://wordpress.org/extend/themes/simplixity).
+After correcting a minor mistake that I made to my credit link, the folks at WordPress accepted my new theme and will be featuring it on the WordPress theme directory page. If you'd like to preview or download the theme you can do so [here](https://wordpress.org/extend/themes/simplixity).
